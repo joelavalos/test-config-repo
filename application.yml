@@ -3,6 +3,8 @@ spring:
 example:
   firstname: "JoelFromGitHubCI"
   
+---
+
 spring:
   profiles: qa
 example:
