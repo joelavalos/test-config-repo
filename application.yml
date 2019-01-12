@@ -1,9 +1,9 @@
 spring:
-	profiles: ci
+  profiles: ci
 example:
   firstname: "JoelFromGitHubCI"
   
 spring:
-	profiles: qa
+  profiles: qa
 example:
   firstname: "JoelFromGitHubQA"
