@@ -1,2 +1,9 @@
+spring:
+	profiles: ci
 example:
-  firstname: "JoelFromGitHub"
+  firstname: "JoelFromGitHubCI"
+  
+spring:
+	profiles: qa
+example:
+  firstname: "JoelFromGitHubQA"
