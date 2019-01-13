@@ -1,0 +1,21 @@
+spring:
+  profiles: default
+character:
+  firstname: "NewFirstNameDefault"
+  lastname: "NewLastNameDefault"
+
+---
+
+spring:
+  profiles: ci
+character:
+  firstname: "Tyrande"
+  lastname: "Wisperwind"
+
+---
+
+spring:
+  profiles: qa
+character:
+  firstname: "Illidan"
+  lastname: "Stormrage"
