@@ -1,9 +1,17 @@
 spring:
+  profiles: default
+character:
+  firstname: "DefaultName"
+  lastname: "DefaultLastName"
+
+---
+
+spring:
   profiles: ci
 character:
   firstname: "Tyrande"
   lastname: "Wisperwind"
-  
+
 ---
 
 spring:
